@@ -1,0 +1,224 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     
+     background-size: cover;
+     margin: 0px;
+     background-color: black;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 600px;
+  padding-left: 60px;
+
+}
+
+#title {
+  color: white;
+  font-family: open sans;
+  font-size: 50px;
+}
+
+#first_line {
+  color: white;
+  font-family: system-ui;
+  font-size: 40px;
+  text-align: center;
+  padding: 100px;
+}
+
+#getit {
+  background-color: yellow;
+  font-size: 15px;
+  margin-left: 45%;
+  width: 15%;
+}
+
+section {
+  background: white;
+  height: 500px;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+#benefit {
+  color: black;
+  font-family: system-ui;
+  font-size: 40px;
+  padding: 70px 70px 10px 70px;
+}
+
+p {
+  color: grey;
+  font-size: 20px;
+  font-family: system-ui;
+  padding: 0px 20px 20px 75px;
+  width: 50%;
+}
+
+ul {
+    list-style: disc;
+    font-size: 20px;
+    font-family: system-ui;
+    color: grey;
+    padding: 10px 20px 30px 70px;
+    margin-left: 5%;
+    width: 40%;
+}
+
+aside {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding-left: 60px;
+  height: 390px;
+  clear: both;
+}
+
+#testimony {
+  text-align: center;
+  padding-top: 70px;
+  margin-left: 23%;
+}
+
+#amanda {
+  color: white;
+  font-weight: bold;
+  margin-left: 34%;
+
+}
+
+.signup{
+  background: yellow;
+  padding: 0px;
+  float: left;
+  height: 100px;
+  width: 100%;
+}
+
+#signup{
+  color: white;
+  text-align: center;
+  background-color: navy;
+  width: 20%;
+  padding:5px 20px 5px 20px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: grey;
+  float: left;
+  height: 300px;
+  width: 100%;
+}
+
+#ftertitle {
+  color: yellow;
+  font-family: open sans;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+.imgcontainer {
+  background-color: transparent;
+  width: 20%;
+  margin-left: 37%;
+}
+
+#img1 {
+  height: 17;
+  width: 37;
+  padding-top: 15px;
+  margin-left: 35%;
+  
+}
+
+#img2 {
+  height: 43;
+  width: 33;
+  padding-top: 15px;
+  margin-left: 30%;
+  
+}
+
+#cpr {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 23%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
