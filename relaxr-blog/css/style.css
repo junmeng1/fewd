@@ -1,0 +1,276 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Jun Meng
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     border: 3px solid blue; /* Why is this not working?? */
+     font-size: 100%;
+     font-family: Arial;
+     background-color: #ddd;
+}
+
+#title {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  float: left;
+  padding: 10px;
+}
+
+.othernav {
+  float: right;
+  font-size: 14px;
+  padding: 20px;
+  color: #cdd328;
+}
+
+ul {
+  background-color: transparent;
+  color: white;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  background-color: #f2f6f5;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: #01214c;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+section {
+  background-color: #f2f6f5;
+
+}
+
+.post {
+  border-bottom: 1px solid black;
+  float: left;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #f2f6f5;
+}
+
+.ad {
+  
+  float: left;
+  float: top;
+  width: 100%;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #01214c;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+p {
+  font-size: 14px;
+  color: #4c5c5e;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  background-color: #f2f6f5;
+}
+
+a {
+  color: #274267;
+  padding: 10px;
+  float: right;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.postsection {
+    float: left;
+    background-color: #f2f6f5;
+    width: 60%;
+}
+
+h2 {
+  color: #01214c;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.category {
+  float: left;
+  color: #01214c;
+  font-family: sans-serif;
+  width: 100%;
+  font-weight: lighter;
+  padding-left: 5px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
+.adsection {
+  width: 40%;
+  float: right;
+  background-color: #f2f6f5;
+}
+
+#adimg {
+  padding-right: 40px;
+  width: 70%;
+  height: auto;
+}
+
+.signup {
+  background-color: #f4f42f;
+  height: 100px;
+  clear: both;
+
+}
+
+button {
+  margin-left: 40%;
+  margin-top: 3.5%;
+  height: 40px;
+  width: 20%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #01214c;
+  font-weight: bold;
+  border: none;
+}
+
+footer {
+  clear: both;
+  background-color: #0a0e0e;
+  color: white;
+  text-align: center;
+  height: 170px;
+}
+
+#ftrtitle {
+  color: #f4f42f;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.socialmedia {
+  width: 10%;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 1%;
+  background-color: transparent;
+  padding-right: 10px;
+}
+
+#twitter {
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 10px;
+  background-color: transparent;
+}
+
+#facebook {
+  float: right;
+  width: 13px;
+  height: 20px;
+  margin: 10px;
+  background-color: transparent;
+}
+
+#ftr {
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+  background-color: transparent;
+  height: 3%;
+  margin: 20px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
