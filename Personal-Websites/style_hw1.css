@@ -1,0 +1,44 @@
+* {
+	background-color: #ffffb3;
+}
+
+div {
+	border-top-style: solid;
+	/*border-bottom-style: solid;*/
+	border-width: 1px;
+	margin: 20px 0 0;
+	padding: 10px 0;
+}
+
+nav {
+	margin: 20px 0 0;
+}
+
+img {
+	height: 116px;
+	width: 15%;
+}
+
+.left {
+	border: 1;
+	margin: 2;
+	margin-left: 5;
+	padding: 15;
+	height: 10;
+	float: left;
+	width: 50%;
+}
+
+.right {
+	border: 1;
+	margin: 2;
+	margin-right: 5;
+	padding: 15;
+	height: 10;
+	float: right;
+	width: 50%;
+}
+
+.small_font {
+	font-size: 15px;
+}
