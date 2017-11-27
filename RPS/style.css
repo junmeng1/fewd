@@ -1,0 +1,20 @@
+* {
+    background-color: black;
+    color: limegreen;
+    font-family: sans-serif;
+}
+
+.actions{
+  display: inline-block;
+  border: 2px solid limegreen;
+  padding: 15px 30px;
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

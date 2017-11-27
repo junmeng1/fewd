@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+      <header role="banner">
+        <h1>Rock, Paper, Scissors?</h1>
+        <h2>Steam-powered bot has challenged you to a game. <u>Rock</u> beats <u>Scissors</u>, <u>Scissors</u> beat <u>Paper</u>, and <u>Paper</u> beats <u>Rock</u>. </h2>
+      </header>
+
+        <div id="scoreboard-title">
+          <h2>Scoreboard</h2>
+          <div id="scoreboard-body">
+            <div>
+              <h id="human-score">0</h>
+              <p id="human-player">You</p>
+            </div>
+            <div>
+              <h id="bot-score">0</h>
+              <p id="bot-player">Bot</p>
+            </div>
+          </div>
+        </div>
+
+        <h1>Choose Wisely</h1>
+
+        <div class="actions" data-type="rock">
+          <p>Rock</p>
+        </div>
+
+        <div class="actions" data-type="paper">
+          <p>Paper</p>
+        </div>
+
+        <div class="actions" data-type="scissors">
+          <p>Scissors</p>
+        </div>
+      
+        <section id="result-statement">
+          <p>You played <span id="human-choice">Rock</span>. The bot played <span id="bot-choice">scissors</span>.</p>
+          <p id="winning-statement">You win! :)</p>
+        </section>
+     
+
+    
+    <!-- Scripts -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> <!-- linking to jQuery file -->
+    <script src="rps.js"></script> <!-- linking to exercise file -->
+    <!-- End Scripts -->
+  </body>
+</html>
