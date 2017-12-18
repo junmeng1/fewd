@@ -1,0 +1,160 @@
+header {
+	/*background-color: red;*/
+	background: url("../images/3d-clothes.jpeg") center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+nav {
+	background-color: white;
+	opacity: 0.7;
+	height: 50px;
+}
+
+#title {
+	font-family: sans-serif;
+	font-size: 32px;
+	color: grey;
+	margin-left: 15px;
+
+}
+
+ul {
+	float: right;
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	color: grey;
+}
+
+#headline {
+	margin: 200px auto 200px auto;
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+
+}
+
+#product-panel {
+	/*width: 100%;*/
+	height: 230px;
+
+}
+
+#Jewelery {
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+/*	border: solid black 1px;
+*/	background: url("../images/3d-jewelry.jpg") center;
+	background-size: cover;
+	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Jewelery:hover {
+	opacity: 0.5;
+	color: black;
+} 
+
+#Art {
+	background: url("../images/3dp-skull.jpg") center;
+	background-size: cover;
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+	/*border: solid black 1px;*/	
+	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Art:hover {
+	opacity: 0.5;
+	color: black;
+}
+
+#Toys {
+	background: url("../images/3dp-toys.jpg") center;
+	background-size: cover;
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+/*	border: solid black 1px;
+*/	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Toys:hover {
+	opacity: 0.5;
+	color: black;
+}
+
+.product-text {
+	margin: 100px auto 60px auto;
+	font-size: 32px;
+}
+
+.action {
+	text-align: center;
+	background-color: #bdad95;
+	height: 300px;
+	padding-top: 100px;
+}
+
+#act-line-1 {
+	color: black;
+}
+
+#act-line-2 {
+	color: black;
+}
+
+#act-line-3 {
+	color: white;
+	font-size: 18px;
+}
+
+footer {
+	background-color: grey;
+	text-align: center;
+	color: white;
+	height: 150px;
+}
+
+/*.ftr-img {
+	margin: 50px 50px auto 50px;
+}*/
+
+.imgcontainer {
+  background-color: transparent;
+  width: 20%;
+  margin-left: 37%;
+  padding-top: 20px;
+}
+
+#img1 {
+  height: 17;
+  width: 37;
+  padding-top: 15px;
+  margin-left: 30%;
+  
+}
+
+#img2 {
+  height: 43;
+  width: 33;
+  padding-top: 15px;
+  margin-left: 10%;
+  
+}
+
+#ftnote {
+	text-align: center;
+	margin-top: 45px;
+}

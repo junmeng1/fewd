@@ -1,0 +1,201 @@
+header {
+	/*background-color: red;*/
+	background: url("../images/3d-clothes.jpeg") center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+nav {
+	background-color: white;
+	opacity: 0.7;
+	height: 50px;
+}
+
+#title {
+	font-family: sans-serif;
+	font-size: 32px;
+	color: grey;
+	margin-left: 15px;
+
+}
+/*
+ul {
+	float: right;
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	color: grey;
+}*/
+
+#hamburger {
+  min-width: 48px;
+  min-height: 48px;
+  float: right;
+  /*margin: 10px;*/
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+.ham {
+  width: 3em;
+  height: 0.3em;
+  background-color: grey;
+  margin: 3px 0;
+  border-radius: 1em;
+}
+
+#dropdown {
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  /*background-color: #033148;*/
+  width: 100%;
+}
+
+.dropblock {
+  color: #fff;/*not sure why font color doesn't change!*/
+  font-family: sans-serif;
+  text-align: center;
+  /*font: inherit;*/
+  border-bottom: solid 0.5px white;
+}
+
+#headline {
+	margin: 200px auto 200px auto;
+	text-align: center;
+	color: white;
+	font-family: fantasy;
+
+}
+
+#product-panel {
+	/*width: 100%;*/
+	height: 230px;
+
+}
+
+#Jewelery {
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+/*	border: solid black 1px;
+*/	background-image: url("../images/3d-jewelry.jpg");
+	background-size: cover;
+	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Jewelery:hover {
+	opacity: 0.5;
+	color: black;
+} 
+
+#Art {
+	background: url("../images/3dp-skull.jpg") center;
+	background-size: cover;
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+	/*border: solid black 1px;*/	
+	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Art:hover {
+	opacity: 0.5;
+	color: black;
+}
+
+#Toys {
+	background-image: url("../images/3dp-toys.jpg");
+	background-size: cover;
+	text-align: center;
+	/*margin: 60px auto 60px auto;*/
+/*	border: solid black 1px;
+*/	height: 230px;
+	color: white;
+	width: 33.33333%;
+}
+
+#Toys:hover {
+	opacity: 0.5;
+	color: black;
+}
+
+.product-text {
+	margin: 100px auto 60px auto;
+	font-size: 22px;
+}
+
+.action {
+	text-align: center;
+	background-color: #bdad95;
+	height: 300px;
+	padding-top: 100px;
+}
+
+#act-line-1 {
+	color: black;
+	font-size: 24px;
+}
+
+#act-line-2 {
+	color: black;
+	font-size: 20px;
+}
+
+#act-line-3 {
+	color: white;
+	font-size: 18px;
+}
+
+footer {
+	background-color: grey;
+	text-align: center;
+	color: white;
+	height: 150px;
+}
+
+/*.ftr-img {
+	margin: 50px 50px auto 50px;
+}*/
+
+.imgcontainer {
+  background-color: transparent;
+  width: 20%;
+  margin-left: 37%;
+  padding-top: 20px;
+}
+
+#img1 {
+  height: 11px;
+  width: 18.5px;
+  padding-top: 15px;
+  margin-left: 30%;
+  
+}
+
+#img2 {
+  height: 21.5px;
+  width: 16.5px;
+  padding-top: 15px;
+  margin-left: 10%;
+  
+}
+
+#ftnote {
+	text-align: center;
+	margin-top: 20px;
+}

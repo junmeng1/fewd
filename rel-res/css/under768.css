@@ -132,7 +132,7 @@ header nav ul li a {
 }
 
 .dropblock {
-  color: #fff;
+  color: #fff;/*not sure why font color doesn't change!*/
   font-family: sans-serif;
   text-align: center;
   /*font: inherit;*/
