@@ -1,3 +1,10 @@
+#dropdown {
+	display: none;
+}
+
+.dropblock {
+	display: none;
+}
 header {
 	/*background-color: red;*/
 	background: url("../images/3d-clothes.jpeg") center fixed;

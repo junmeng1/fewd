@@ -24,12 +24,13 @@
 	ul,li {
 		display: none;
 	}
+
 	#dropdown {
 	  position: absolute;
-	  top: 150px;
+	  top: 50px;
 	  right: 0px;
 	  /*background-color: #033148;*/
-	  width: 100%;
+	  width: 100px;
 	}
 
 	.dropblock {
@@ -42,7 +43,13 @@
 
 }
 @media (min-width: 801px){
-	
+	#dropdown {
+	  display: none;
+	}
+
+	.dropblock {
+	  display: none;
+	}
 }
 
 header {
@@ -89,21 +96,19 @@ li {
 	background-size: cover;
 	text-align: center;
 	/*margin: 60px auto 60px auto;*/
-	/*border: solid black 1px;*/	
-	height: 230px;
+	height: 300px;
 	color: white;
-	width: 33.33333%;
+	/*width: 100%;*/
+	/*border: solid green 1px;*/
 }
 
 #ring {
 	background: url("../images/3dp-ring.jpg") center;
 	background-size: cover;
 	text-align: center;
-	/*margin: 60px auto 60px auto;*/
-	/*border: solid black 1px;*/	
-	height: 230px;
+	height: 300px;
 	color: white;
-	width: 33.33333%;
+	/*width: 33.33333%;*/
 }
 
 #earring {
@@ -111,23 +116,21 @@ li {
 	background-size: cover;
 	text-align: center;
 	/*margin: 60px auto 60px auto;*/
-	/*border: solid black 1px;*/	
-	height: 230px;
+	height: 300px;
 	color: white;
-	width: 33.33333%;
+	/*width: 33.33333%;*/
 }
 
 .prtext {
 	/*float: left;*/
 	height: 80px;
-	border: 1px solid black;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 1em;
 }
 
 .pdcontainer {
-	height: 200px;
+	height: 500px;
 }
 
 /*Footer*/
